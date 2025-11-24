@@ -2,12 +2,12 @@
 .ast-onsale-card,
 .woocommerce span.onsale {
   position: absolute;
-  top: 10px;
-  left: -35px;
+  top: 20px;
+  left: -8px;
   background: #d62828;      /* ribbon color */
   color: #ffffff;
-  padding: 6px 40px;
-  font-size: 12px;
+  padding: 3px 30px;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   transform: rotate(-45deg);
@@ -22,9 +22,9 @@
   position: absolute;
   top: -8px;
   left: 0;
-  border-width: 0 8px 8px 0;
+  border-width: 8px 0 0 8px;
   border-style: solid;
-  border-color: transparent #a31d1d transparent transparent;
+  border-color: transparent transparent transparent #a31d1d; /* darker shade */
 }
 
 /* Optional: little triangle “tail” under the ribbon */
